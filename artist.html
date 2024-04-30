@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Artists</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" class="logo-png">
+        <h1>Music Hub</h1>
+        <p class="tagline">Featured Artists</p>
+    </header>
+
+    <nav>
+        <ul>
+          <form class="ser" id="form" style="margin-right: 100%;" action="https://bandcamp.com/search" method="get" target="_blank"> 
+            <input class="inp" type="text" list="input" id="query" name="q" placeholder="Search music...">
+            <datalist id="input">
+                <option value="R&B music">R&B music</option>
+                <option value="Rock music">Rock music</option>
+                <option value="Blues music">Blues music</option>
+                <option value="Pop music">Pop music</option>
+                <option value="EDM music">EDM music</option>
+                <option value="Popular music">Popular music</option>
+                <option value="Folk music">Folk music</option>
+                <option value="Hip-Hop music">Hip-Hop music</option>
+                <option value="Country music">Country music</option>
+                <option value="Heavy metal music">Heavy metal music</option>
+                <option value="Classical music">Classical music</option>
+                <option value="New wave music">New wave music</option>
+                <option value="Jazz music">Jazz music</option>
+                <option value="Indie music">Indie music</option>
+                <option value="Latin music">Latin music</option>
+                <option value="Reggae music">Reggae music</option>
+                <option value="Funk music">Funk music</option>
+                <option value="Christian music">Christian music</option>
+                <option value="Elton John">Elton John</option>
+                <option value="Taylor Swift">Taylor Swift</option>
+                <option value="Michael Jackson">Michael Jackson</option>
+                <option value="Justin Bieber">Justin Bieber</option>
+                <option value="Beyounce">Beyounce</option>
+                <option value="Britney Spears">Britney Spears</option>
+                <option value="Lady Gaga">Lady Gaga</option>
+                <option value="Celine Dion">Celine Dion</option>
+                <option value="Eminem">Eminem</option>
+                <option value="Rihanna">Rihanna</option>
+                <option value="Katy Perry">Katy Perry</option>
+                <option value="Justin Timberlake">Justin Timberlake</option>
+                <option value="Ed Sheeran">Ed Sheeran</option>
+                <option value="Bruno Mars">Bruno Mars</option>
+                <option value="Drake">Drake</option>
+                <option value="Adele">Adele</option>
+                <option value="Elvis Presley">Elvis Presley</option>
+                <option value="Miley Cyrus">Miley Cyrus</option>
+                <option value="Usher">Usher</option>
+                <option value="Shakira">Shakira</option>
+                <option value="Nicki Minaj">Nicki Minaj</option>
+                <option value="Frank Sinatra">Frank Sinatra</option>
+                <option value="Moira Dela Torre">Moira Dela Torre </option>
+                <option value="Eddie Van Der Meer">Eddie Van Der Meer</option>
+                <option value="Hev Abi">Hev Abi</option>
+                <option value="Hiroyuki Sawano">Hiroyuki Sawano</option>
+                <option value="This Band">This Band</option>
+            </datalist>
+          </form>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="genres.html" >Genres</a></li>
+            <li><a href="artist.html" style="color: blue;">Artists</a></li>
+            <li><a href="login.html" >Login</a></li>
+            <li><a href="socials.html" >Contact</a></li>
+            <li><a href="About us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <section class="featured-music">
+      <div class="album">
+        <h2></h2>
+      </div>
+    </section>
+    
+    <section class="featured-music">
+      <h2></h2>
+       <div class="album">
+           <div class="album-card">
+            <div class="container">
+               <img src="Eddie.jpg" alt="Eddie">
+               <div class="tp">Eddie is a singer-songwriter known for his songs that blend pop, rock, and acoustic styles. His tracks like "I Don't Care," "Paralyzed," and "Despair" offer catchy melodies and thoughtful lyrics, exploring themes of love, longing, and the human experience.
+             </div>
+            </div>
+               <h3>Eddie Van Der Meer</h3>
+               <audio controls autoplay>
+                <source src="idontcare.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+               <a href="https://open.spotify.com/artist/08WRjJPbPqSEOkFuc99ymW?si=QkBkUwuRSRyNK6O_N0yYLA" target="_blank">Listen Now</a>
+           </div>
+     
+         
+       </div>
+   </section>
+   <section class="featured-music">
+    <h2>Featured Artists</h2>
+     <div class="album">
+         <div class="album-card">
+            <div class="container">
+             <img src="ai.jfif" alt="ai">
+             <div class="tp">Ai Tomioka is a Japanese pop performer known for her catchy tunes and powerful vocals. 
+                Her music combines pop with traditional Japanese influences, making her popular in the Asian music market. 
+            </div>
+            </div>
+             <h3>Ai Tomioka</h3>
+             <audio controls autoplay>
+                <source src="ai.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+             <a href="https://open.spotify.com/artist/28uwiPI48qGWTiPz6Zgnwi?si=REQVV17KSF69ckQ-0qViIw" target="_blank">Listen Now</a>
+         </div>
+         <div class="album-card">
+          <div class="container">
+             <img src="hiroyuki.jfif" alt="hiroyuki">
+             <div class="tp">Hiroyuki Sawano is a prominent Japanese composer known for his work in anime, video games, and movies.
+               Sawano's style
+                is influenced by various composers, and he often incorporates unique titles and multilingual lyrics into his 
+                compositions.
+          </div>
+            </div>
+             <h3>Hiroyuki Sawano</h3>
+             <audio controls autoplay>
+                <source src="attack.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+             <a href="https://open.spotify.com/artist/0Riv2KnFcLZA3JSVryRg4y?si=np619eQXRe21JCG1kgD24w" target="_blank">Listen Now</a>
+         </div>
+        
+       
+     </div>
+ </section>
+
+
+    <section class="featured-music">
+     <h2></h2>
+      <div class="album">
+          <div class="album-card">
+            <div class="container">
+              <img src="polarrana.jfif" alt="polarrana">
+              <div class="tp">Polarrana is a Russian singer-songwriter known for her distinctive pop music, often compared to artists 
+                like Billie Eilish and Lana Del Rey. With nearly 1 million YouTube followers, Polarrana aims to inspire and connect
+                 with her listeners through her music.
+           </div>
+            </div>
+              <h3>Polarrana</h3>
+              <audio controls autoplay>
+                <source src="polarrana.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+              <a href="https://open.spotify.com/artist/0OQ1ShLuM2HFheFFvhuCFd?si=buElNJHDTcGB_n8I5Uxh5Q" target="_blank">Listen Now</a>
+          </div>
+          <div class="album-card">
+            <div class="container">
+              <img src="ed sheeran.jfif" alt="ed sheeran">
+              <div class="tp">Ed Sheeran is an acclaimed English singer-songwriter known for his heartfelt and introspective music. 
+                His songs cover themes like love, relationships, and personal struggles, pop, and acoustic elements. 
+                His storytelling and authenticity have made him a prominent figure in music.
+           </div>
+            </div>
+              <h3>Ed Sheeran</h3>
+              <audio controls autoplay>
+                <source src="shivers .mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+              <a href="https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V" target="_blank">Listen Now</a>
+          </div>
+          <div class="album-card">
+            <div class="container">
+            <img src="dilaw.jfif" alt="dilaw">
+            <div class="tp">Dilaw is a Filipino band known for their hit single "Uhaw," which broke records in Spotify 
+              Philippines. Composed during a
+               drinking session, the song explores the thirst for love and became Dilaw's signature song, performed live and even with 
+               Coldplay during their concert.
+         </div>
+          </div>
+            <h3>Dilaw</h3>
+            <audio controls autoplay>
+                <source src="orasa.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+            <a href="https://open.spotify.com/artist/6Dp4LInLyMVA2qhRqQ6AGL?si=IZzvUwhISWunkEwGyLpDaw" target="_blank">Listen Now</a>
+        </div>
+        <div class="album-card">
+          <div class="container">
+          <img src="ado.jfif" alt="ado">
+          <div class="tp">
+            Ado is a Japanese singer known for her powerful vocals and unique style. Ado started covering songs 
+            and to a solo artist, gaining fame for her raw and expressive singing. 
+            Ado's music blends influences from Vocaloid and anime culture, reflecting societal frustrations and emotions.
+       </div>
+        </div>
+          <h3>Ado</h3>
+          <audio controls autoplay>
+            <source src="ado.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+          <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl?si=0NocyaPKQh6J2q4wHOP05Q" target="_blank">Listen Now</a>
+      </div>
+      
+        
+      </div>
+  </section>
+  <section class="featured-music">
+    <h2></h2>
+     <div class="album">
+         <div class="album-card">
+          <div class="container">
+             <img src="kenshi.jfif" alt="kenshi">
+             <div class="tp">
+              Kenshi Yonezu is a Japanese musician known for his unique sound blending pop, rock, electronic, and hip-hop.
+               Yonezu's songs often touch on deep and emotional 
+               themes. 
+               He is also known for his work in commercials, anime, and video games.
+         </div>
+            </div>
+             <h3>Kenshi Yonezu</h3>
+             <audio controls autoplay>
+                <source src="loser.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+             <a href="https://open.spotify.com/artist/1snhtMLeb2DYoMOcVbb8iB?si=w2VwGyJfQCKBvBoKcGC1Nw" target="_blank">Listen Now</a>
+         </div>
+         <div class="album-card">
+          <div class="container">
+             <img src="gnu.jfif" alt="gnu">
+             <div class="tp">
+              King Gnu is a Japanese alternative rock band formed in 2013. The band's music incorporates elements from various genres, 
+              including rock, jazz, j-pop, and R&B. The band's unique sound 
+              and style have earned them a dedicated fanbase in Japan and beyond.
+         </div>
+            </div>
+             <h3>King Gnu</h3>
+             <audio controls autoplay>
+                <source src="special .mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+             <a href="https://open.spotify.com/artist/6wxfx1yhyqjCPYwwxJktR2?si=LwPFZCSZRFGJt9TTXv_fQQ" target="_blank">Listen Now</a>
+         </div>
+         <div class="album-card">
+          <div class="container">
+           <img src="lisa.jfif" alt="lisa">
+           <div class="tp">
+            LiSA is a Japanese pop-rock singer known for her work in anime. She debuted in 2011 and has released hit singles 
+            like "Crossing Field" and "Oath Sign" featured in "Sword Art Online" and "Fate/Zero." She's influenced by Avril Lavigne, 
+            Oasis, and Paramore.
+       </div>
+          </div>
+           <h3>LiSA</h3>
+           <audio controls autoplay>
+            <source src="gurenge.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+           <a href="https://open.spotify.com/track/23DbzwNJSLo7nkSWjODMvY?si=e9392482db60410d" target="_blank">Listen Now</a>
+       </div>
+       <div class="album-card">
+        <div class="container">
+         <img src="eve.jpg" alt="eve">
+         <div class="tp">
+          Eve is a Japanese singer-songwriter, utaite, and Vocaloid producer known for his distinctive voice. 
+          He gained fame for covers on Niconico and was the lead vocalist for the band Einie. Eve signed with Toy's 
+          Factory in 2019 and has released albums like "Otogi," etc.
+     </div>
+        </div>
+         <h3>Eve</h3>
+         <audio controls autoplay>
+            <source src="eve.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+         <a href="https://open.spotify.com/artist/58oPVy7oihAEXE0Ott6JOf?si=mdq4cBpUS5KRLr0IKDmx0w" target="_blank">Listen Now</a>
+     </div>
+     <div class="album-card">
+      <div class="container">
+      <img src="vaundy.jfif" alt="vaundy">
+      <div class="tp">
+        Vaundy is a Japanese musician known for his energetic melodies and mix of Japanese and English lyrics. 
+        He gained fame with songs like "Tokyo Flash" and has released music for anime like Chainsaw Man. His music has gained a significant following in Japan.
+   </div>
+    </div>
+      <h3>Vaundy</h3>
+      <audio controls autoplay>
+        <source src="vaundy .mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <a href="https://open.spotify.com/track/4UeWKazLR1ZwwSVnLw9Ir9?si=8c033f3c2d724828" target="_blank">Listen Now</a>
+  </div>
+     
+       
+     </div>
+ </section>
+ <section class="featured-music">
+  <h2></h2>
+   <div class="album">
+       <div class="album-card">
+        <div class="container">
+           <img src="kanaria.jfif" alt="kanaria">
+           <div class="tp">
+            Kanaria is a Japanese artist known for their work as a vocaloid producer, lyricist, composer, and arranger.
+             She gained popularity with songs like "KING" and "Demon Lord". Kanaria's music has
+              been well-received, with millions of views on platforms like YouTube.
+       </div>
+          </div>
+           <h3>Kanaria</h3>
+           <audio controls autoplay>
+            <source src="kanaria.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+           <a href="https://open.spotify.com/artist/1k5LyiTCRzPjORzcgHqJxF?si=P5KHGJQ6Rf2GfOrO4581dQ" target="_blank">Listen Now</a>
+       </div>
+       <div class="album-card">
+        <div class="container">
+           <img src="yoasobi.jfif" alt="yoasobi">
+           <div class="tp">
+            YOASOBI is a Japanese duo known for their blend of Japanese and English with electronic and acoustic sounds.
+             They've
+            written music for anime like "Beastars". YOASOBI's unique style and storytelling have made
+             them popular worldwide.
+       </div>
+          </div>
+           <h3>Yoasobi</h3>
+           <audio controls autoplay>
+            <source src="yoasobi.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+           <a href="https://open.spotify.com/artist/64tJ2EAv1R6UaZqc4iOCyj?si=WvYVpCoQQhKEFghfC_k9Zw" target="_blank">Listen Now</a>
+       </div>
+       <div class="album-card">
+        <div class="container">
+         <img src="aimer.jfif" alt="aimer">
+         <div class="tp">
+          Aimer is a Japanese pop singer with a husky voice and emotional style. Her music spans J-pop and rock, 
+          and she's known for albums like "Daydream." Aimer's live performances emphasize her powerful vocals and emotional 
+          connection with fans.
+     </div>
+        </div>
+         <h3>Aimer</h3>
+         <audio controls autoplay>
+            <source src="aimer.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+         <a href="https://open.spotify.com/artist/0bAsR2unSRpn6BQPEnNlZm?si=6bM7KlgDSM25OGMIPgfalw" target="_blank">Listen Now</a>
+     </div>
+     <div class="album-card">
+      <div class="container">
+       <img src="radwimps.jfif" alt="radwimps">
+       <div class="tp">
+        Radwimps is a Japanese rock band formed in 2001. They blend rock, pop, jazz, and electronic 
+        elements. Radwimps gained fame with hits like "Dada" and provided the soundtrack for anime films like 
+        *Your Name*. They have a large following in Japan and worldwide.
+   </div>
+      </div>
+       <h3>RADWIMPS</h3>
+       <audio controls autoplay>
+        <source src="sparkle.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+       <a href="https://open.spotify.com/artist/1EowJ1WwkMzkCkRomFhui7?si=VFVinU5TTpS4n7PnvHrDWA" target="_blank">Listen Now</a>
+   </div>
+   
+     
+   </div>
+</section>
+<section class="featured-music">
+  <h2></h2>
+   <div class="album">
+       <div class="album-card">
+        <div class="container">
+           <img src="Creepy.jfif" alt="Creepy">
+           <div class="tp">
+            Creepy Nuts is a Japanese hip hop duo known for their energetic music and rapid-fire rapping. 
+            The duo consists of R-Shitei and DJ Matsunaga. 
+            Their music is characterized by its high energy and catchy beats, and they have gained a dedicated fanbase in Japan.
+       </div>
+          </div>
+           <h3>Creepy Nuts</h3>
+           <audio controls autoplay>
+            <source src="bling.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+           <a href="https://open.spotify.com/artist/0pWR7TsFhvSCnbmHDjWgrE?si=HPZq1FPiRGC-DaatzATyHA" target="_blank">Listen Now</a>
+       </div>
+       <div class="album-card">
+        <div class="container">
+           <img src="steampianist.jfif" alt="steampianist">
+           <div class="tp">
+            Steampianist is a Vocaloid producer known for their steampunk-themed music. His songs blend Japanese and English 
+            lyrics with electronic and acoustic sounds.
+            It have a distinct style and popular songs like "The Hole of Wonders and Dismay" featuring Vocaloid Oliver.
+       </div>
+          </div>
+           <h3>Steampianist</h3>
+           <audio controls autoplay>
+            <source src="carinosa.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+           <a href="https://open.spotify.com/artist/3Tnsshb60OXuwCBZYNGicL?si=P2tyZ1Z9SyGCiWL5IQahbg" target="_blank">Listen Now</a>
+       </div>
+  
+   
+     
+   </div>
+</section>
+<section class="featured-music">
+  <h2></h2>
+   <div class="album">
+       <div class="album-card">
+        <div class="container">
+           <img src="xxx.jfif" alt="xxx">
+           <div class="tp">
+            XXXTentacion was an American rapper known for blending hip-hop, emo, and heavy metal in his music. 
+            He faced controversy and legal issues. Despite this, his music 
+            was praised for its emotional depth. He remained popular and influential in the music industry.
+       </div>
+          </div>
+           <h3>XXXTENTANCION</h3>
+           <audio controls autoplay>
+            <source src="xxx.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+           <a href="https://open.spotify.com/artist/3Tnsshb60OXuwCBZYNGicL?si=P2tyZ1Z9SyGCiWL5IQahbg" target="_blank">Listen Now</a>
+       </div>
+ 
+     
+   </div>
+</section>
+<section>
+  <div>
+    <h2>.</h2>
+  </div>
+</section>
+
+  
+
+  <footer>
+ 
+      &copy; 2024 Music. All rights reserved.
+  </footer>
+</body>
+
+</html>
